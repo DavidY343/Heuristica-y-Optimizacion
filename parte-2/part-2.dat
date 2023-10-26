@@ -1,0 +1,37 @@
+###############
+#  Conjuntos  #
+###############
+
+set Distritos := D1 D2 D3 D4 D5;
+set Localizaciones := L1 L2 L3 L4 L5 L6;
+set Localizaciones_nuevas := L4 L5 L6;
+
+################
+#  Parámetros  #
+################
+
+param Llamadas :=
+D1 5000
+D2 6500
+D3 5400
+D4 7500
+D5 5500;
+
+param Tiempo : D1 D2 D3 D4 D5 :=
+L1 20 30 50 15 32
+L2 15 18 30 12 15
+L3 34 20 14 30 18
+L4 12 15 40 10 20
+L5 20 18 20 17 10
+L6 55 35 20 30 30;
+
+param Max_llamadas := 10000;
+param Tiempo_maximo_atencion := 35;
+param Maximo_esfuerzo_relativo := 1.1;
+param Coste_combustible := 2;
+param M := 1000000;
+param Epsilon := 1;
+param Coste_nuevo_parking := 50000;
+param Min_percent := 0.1;
+param Max_distribucion := 0.75;
+end;

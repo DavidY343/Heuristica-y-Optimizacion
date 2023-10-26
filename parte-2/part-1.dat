@@ -1,0 +1,27 @@
+###############
+#  Conjuntos  #
+###############
+
+set Distritos := D1 D2 D3 D4 D5;
+set Localizaciones := L1 L2 L3;
+
+################
+#  Parámetros  #
+################
+
+param Llamadas :=
+D1 5000
+D2 6500
+D3 5400
+D4 7500
+D5 5500;
+
+param Tiempo : D1 D2 D3 D4 D5 :=
+L1 20 30 50 15 32
+L2 15 18 30 12 15
+L3 34 20 14 30 18;
+
+param Max_llamadas := 10000;
+param Tiempo_maximo_atencion := 35;
+param Maximo_esfuerzo_relativo := 1.5;
+end;
