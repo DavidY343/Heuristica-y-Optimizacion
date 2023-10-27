@@ -27,7 +27,7 @@ L6 55 35 20 30 30;
 
 param Max_llamadas := 10000;
 param Tiempo_maximo_atencion := 35;
-param Maximo_esfuerzo_relativo := 1.1;
+param Maximo_esfuerzo_relativo := 1.5;
 param Coste_combustible := 2;
 param M := 1000000;
 param Epsilon := 1;
